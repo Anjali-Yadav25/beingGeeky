@@ -1,0 +1,34 @@
+a:hover{
+    background-color: #103063;
+  }
+  #main h1{
+    padding-top: 100px;
+  }
+  @media screen and (max-height: 580px){
+    #main.container-fluid{
+      height: 50vh;
+    }
+    #main.container-fluid h1{
+      font-size: 3rem;
+    }
+    #main.container-fluid h2{
+      font-size: 2rem;
+    }
+    
+    #main p.lead{
+      display: none;
+    }
+    #footer{
+      display: none;
+    }
+  }
+  .btn{
+    background-color: #103063;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    
+    
+  }
+  li{
+    list-style: none;
+  }
